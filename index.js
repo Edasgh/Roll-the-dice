@@ -3,7 +3,7 @@
 const Rolldice=()=>{ 
         var randomnum1= Math.floor(Math.random()*6) + 1;
         var randomimg1= "dice"+randomnum1+".png";
-        var randImgsrc1="/Project4/img/"+randomimg1;
+        var randImgsrc1="./img/"+randomimg1;
         console.log(randImgsrc1);
         
         var img1=document.getElementsByTagName('img')[0]
@@ -14,7 +14,7 @@ const Rolldice=()=>{
        //For second image
        var randomnum2= Math.floor(Math.random()*6) + 1;
        var randomimg2= "dice"+randomnum2+".png";
-       var randImgsrc2="/Project4/img/"+randomimg2;
+       var randImgsrc2="./img/"+randomimg2;
        
        var img2=document.getElementsByTagName('img')[1]
        img2.src=("src" , randImgsrc2);
